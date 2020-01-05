@@ -11,7 +11,7 @@ With this React component you can integrate cookie banner from [cookiehub.com](h
 
 npm:
 ```bash
-npm install --save react-cookiehub
+npm install --save react-cookiehub-banner
 ```
 
 dependencies:
@@ -20,13 +20,13 @@ dependencies:
 ## Example
 ```javascript
 import React from "react";
-import ReactCookieHub from "react-cookiehub";
+import CookieHubBanner from "react-cookiehub-banner";
 
 class Application extends React.Component {
   render () {
     return (
         <div className="application">
-            <CookieBannerCookieHub 
+            <CookieHubBanner 
                 googleTrackingId="XX-XXXXXXXXX-X" 
                 cookieHubId="XXXXXXXX"/>
         </div>
